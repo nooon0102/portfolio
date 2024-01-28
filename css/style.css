@@ -353,6 +353,7 @@ body.is-active .mainview-title-2 span {
 /* works */
 .works {
   margin-bottom: 7rem;
+  min-height: 380px 
 }
 .works-heading {
   height: 3rem;
@@ -387,6 +388,12 @@ body.is-active .mainview-title-2 span {
 .works-title .text-ja {
   font-size: 0.8rem;
 }
+
+.works-works{
+
+}
+
+
 
 
 /* service */
@@ -714,6 +721,13 @@ body.is-active .mainview-title-2 span {
 
 .service-main {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
+}
+.mainview-text-container {
+  width: 100%;
+  column-count: 1;
+}
+.mainview-block-2 {
+  padding: 40px;
 }
 }
